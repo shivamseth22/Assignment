@@ -11,10 +11,10 @@ const Table = () => {
   ];
 
   return (
-    <div className="w-full max-w-screen-md mx-auto p-4">
+    <div className="w-full max-w-screen-md mx-auto p-4 ">
       <table className="w-full border-collapse border border-gray-300 rounded-md">
         <thead>
-          <tr className="bg-gray-200">
+          <tr className="">
             <th className="py-2 px-4 border">Analysis</th>
             <th className="py-2 px-4 border"></th>
           </tr>

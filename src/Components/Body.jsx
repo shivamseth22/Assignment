@@ -1,6 +1,8 @@
 import React from "react";
 import PieChart from "./PieChart";
 import CircularPie from "./CircularPie";
+import CircularPie1 from "./CircularPie1";
+import CircularPie2 from "./CircularPie2";
 
 const Body = () => {
   return (
@@ -49,6 +51,7 @@ const Body = () => {
           <div className="">
             {/* <PieChart/> */}
             <CircularPie />
+            <span className="text-sm text-blue-700">Score:59%</span>
           </div>
           
           <div>
@@ -66,7 +69,8 @@ const Body = () => {
         <div className="flex gap-4">
           <div>
           {/* <PieChart/> */}
-          <CircularPie/>
+          <CircularPie1/>
+          <span className="text-sm text-green-700">Score:74%</span>
           </div>
           <div>
             <h2>Time Management</h2>
@@ -82,7 +86,9 @@ const Body = () => {
         <div className="flex gap-4">
           <div>
           {/* <PieChart/> */}
-          <CircularPie/>
+          <CircularPie2/>
+          <span className="text-sm text-red-700">Score:39%</span>
+
           </div>
           <div>
             <h2>Critical Thinking</h2>

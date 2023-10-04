@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import logo from './logo.png'
+
 
 const Header = () => {
   const [isSidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -13,7 +15,7 @@ const Header = () => {
     <div className=" flex justify-between items-center border-blue-500 border drop-shadow-md" style={{ width: '100%', height: '70px' }}>
       <div className="flex items-center justify-between">
         {/* Add your logo here */}
-        <img src="your-logo.png" alt="Logo" className="w-8 h-8 mr-2" />
+        <img src={logo} alt="Logo" className="w-8 h-8 ml-5" />
         {/* Centered text */}
        
       </div>

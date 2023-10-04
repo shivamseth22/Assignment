@@ -1,6 +1,6 @@
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-const percentage = 50;
+const percentage = 59;
 
 const CircularPie = () => (
   <div style={{ width: 50, height: 50 }}>

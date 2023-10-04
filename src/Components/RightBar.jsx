@@ -13,10 +13,10 @@ const RightBar = () => {
       <div>
         <h1 className='font-bold m-4'>Results</h1>
         <h2 className='font-semibold m-4'>Score: 74%</h2>
-        <div >
+        <div className='-mt-5 '>
         
 
-<PieChart/>
+<PieChart />
           
          
         </div>

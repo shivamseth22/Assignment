@@ -6,11 +6,11 @@ export const data = [
   ["Correct answer", 11],
   ["Not answered", 2],
   ["Wrong", 2],
-  
 ];
 
 export const options = {
   colors: ["#235784", "#40A8C4", "#BCDBDF"], // Customize colors here
+  height: 200, // Adjust the height here
 };
 
 export function PieChart() {
@@ -20,8 +20,7 @@ export function PieChart() {
       data={data}
       options={options}
       width={"100%"}
-      height={"200px"}
-      
+      height={"200px"} // Adjust the height here
     />
   );
 }
